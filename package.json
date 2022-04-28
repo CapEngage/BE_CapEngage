@@ -1,0 +1,32 @@
+{
+  "name": "capengage",
+  "version": "1.0.0",
+  "description": "CapEngage &#8211; Personalize messages with simple and powerful marketing automation &#8211; Send the right message at the right time to convert more leads with CapEngage",
+  "main": "nodemon server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapEngage/BE_CapEngage.git"
+  },
+  "keywords": [
+    "CapEngage"
+  ],
+  "author": "goutam.k@capengage.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapEngage/BE_CapEngage/issues"
+  },
+  "homepage": "https://github.com/CapEngage/BE_CapEngage#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
